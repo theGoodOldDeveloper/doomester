@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-primary-50 via-cyan-50 to-primary-100 text-gray-900 antialiased;
+  }
+}
+
+@layer utilities {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-large;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-cyan-600 bg-clip-text text-transparent;
+  }
+}
+

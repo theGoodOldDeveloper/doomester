@@ -1,0 +1,4 @@
+name: Zene és hangosítás
+description: Multi-room hangosítás, ahol a zene követi téged az otthonban. Szinkronizált lejátszás minden szobában, vagy külön zene minden helyiségben.
+modaldescription: A Home Assistant multi-room hangosítási rendszere lehetővé teszi, hogy a zene követjen téged az otthonban. A rendszer képes szinkronizálni a hangot több szobában egyszerre, vagy külön zenét játszani minden helyiségben. Integrálható a legtöbb modern hangosítóval, mint például Sonos, Chromecast, vagy AirPlay kompatibilis eszközökkel. A rendszer automatikusan csökkenti a hangerőt, amikor telefonálsz, vagy növeli, amikor reggel ébreszt.
+

@@ -1,0 +1,4 @@
+name: Energia monitoring
+description: Valós idejű energiafogyasztás követése és elemzése. Láthatod, melyik eszköz fogyaszt sokat, és optimalizálhatod a költségeidet.
+modaldescription: Az energia monitoring rendszer lehetővé teszi, hogy valós időben követhesd az otthonod energiafogyasztását. A rendszer mutatja, melyik eszköz fogyaszt sokat, és segít optimalizálni a költségeidet. Integrálható okos mérőórákkal, és részletes jelentéseket készít a napi, heti és havi fogyasztásról. A rendszer értesít, ha valamelyik eszköz szokatlanul sokat fogyaszt, így időben észlelheted a hibákat vagy a szükségtelen energiafogyasztást.
+
