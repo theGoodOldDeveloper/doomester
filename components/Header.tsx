@@ -9,9 +9,25 @@ export default function Header() {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="bg-gradient-to-r from-accent-light to-primary-50 backdrop-blur-md bg-opacity-90 shadow-soft"
+      className="lg:bg-gradient-to-r lg:from-accent-light lg:to-primary-50 lg:backdrop-blur-md lg:bg-opacity-90 bg-transparent shadow-soft overflow-hidden"
     >
-      <div className="container-custom py-0">
+      {/* Mobil és tablet: csak logo teljes szélességben */}
+      <div className="lg:hidden relative w-full h-48">
+        <Image
+          src="/images/doomlogo.png"
+          alt="DOOMester Logo"
+          fill
+          className="object-cover"
+          unoptimized
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.style.display = "none";
+          }}
+        />
+      </div>
+      
+      {/* Desktop: logo + szöveg */}
+      <div className="hidden lg:block container-custom py-0">
         <div className="flex items-center justify-between gap-4">
           <motion.div
             whileHover={{ scale: 1.1, rotate: 5 }}
@@ -26,7 +42,6 @@ export default function Header() {
               className="rounded-2xl"
               unoptimized
               onError={(e) => {
-                // Fallback ha nincs kép
                 const target = e.target as HTMLImageElement;
                 target.style.display = "none";
               }}
@@ -45,4 +60,3 @@ export default function Header() {
     </motion.header>
   );
 }
-
