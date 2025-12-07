@@ -1,4 +1,4 @@
-name: Energia monitoring
-description: Valós idejű energiafogyasztás követése és elemzése. Láthatod, melyik eszköz fogyaszt sokat, és optimalizálhatod a költségeidet.
-modaldescription: Az energia monitoring rendszer lehetővé teszi, hogy valós időben követhesd az otthonod energiafogyasztását. A rendszer mutatja, melyik eszköz fogyaszt sokat, és segít optimalizálni a költségeidet. Integrálható okos mérőórákkal, és részletes jelentéseket készít a napi, heti és havi fogyasztásról. A rendszer értesít, ha valamelyik eszköz szokatlanul sokat fogyaszt, így időben észlelheted a hibákat vagy a szükségtelen energiafogyasztást.
+name: Háztartási rutinok automatizálása – Amikor a lakás dolgozik helyetted
+description: A mindennapi háztartási feladatok automatizálása: redőnyök, ventilátorok, porszívó, jelenetek és rutinok, amelyek önállóan működnek helyetted.
+modaldescription: A háztartási rutinok automatizálása teszi igazán „okossá” az otthont. A Home Assistant képes a redőnyöket napkeltekor felhúzni, este leengedni, a fürdő ventilátorát páratartalom alapján indítani, vagy a robotporszívót olyan időpontban elindítani, amikor senki sincs otthon. A különböző eszközök együttműködnek: a „Filmezés mód” lehúzza a redőnyöket, halkítja a világítást és kikapcsolja a zavaró eszközöket. A „Jó éjt” rutin minden lámpát lekapcsol és aktiválja a biztonsági rendszert. Ezek az apró, de folyamatosan működő automatizmusok rengeteg időt, energiát és felesleges kattintást spórolnak meg a mindennapokban.
 

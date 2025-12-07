@@ -1,4 +1,4 @@
-name: Okos kert automatizálás
-description: Automatikus öntözés, fényvezérlés és növényfigyelés. A kert gondozása soha nem volt ilyen egyszerű és hatékony.
-modaldescription: Az okos kert automatizálás lehetővé teszi, hogy a kert gondozása teljesen automatikus legyen. A rendszer figyeli az időjárást, a talaj nedvességtartalmát és a növények állapotát. Automatikusan bekapcsolja az öntözést, amikor szükséges, és kikapcsolja, ha esik az eső. A fényvezérlés segít a növények optimális növekedésében, és a rendszer értesít, ha valami figyelmet igényel a kertben.
+name: Kapu, garázs és ajtóvezérlés – Távoli hozzáférés, automatizálva
+description: Kapu- és garázsvezérlés automatizmussal, távoli nyitással, értesítésekkel és biztonságos hozzáféréssel – mindig tudod, ki érkezik haza.
+modaldescription: A kapu-, garázs- és ajtóvezérlés automatizálása jelentősen növeli a kényelmet és a biztonságot. A Home Assistant segítségével a rendszer érzékeli, amikor hazaérkezel, és geolokáció alapján automatikusan kinyithatja a kaput vagy a garázst. Távolról is ellenőrizheted, hogy minden zárva van-e, és egy gombnyomással beengedhetsz családtagot, futárt vagy vendéget. Ideiglenes hozzáférési kódokat is létrehozhatsz, így nem kell kulcsot másolni vagy rejtegetni. Értesítéseket kapsz minden nyitásról-zárásról, és akár időzítést is beállíthatsz automatikus éjszakai záráshoz. Ez a funkció praktikus, biztonságos és nagyon látványos smart-home élmény.
 
