@@ -47,7 +47,6 @@ export default function Hero() {
                 textShadow: '2px 2px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.2)',
                 letterSpacing: '0.02em',
                 WebkitTextStroke: '1px rgba(0, 0, 0, 0.3)',
-                textStroke: '1px rgba(0, 0, 0, 0.3)',
                 paintOrder: 'stroke fill'
               }}
             >
@@ -60,7 +59,6 @@ export default function Hero() {
                   letterSpacing: '0.03em',
                   color: '#ffffff',
                   WebkitTextStroke: '1.5px rgba(0, 0, 0, 0.4)',
-                  textStroke: '1.5px rgba(0, 0, 0, 0.4)',
                   paintOrder: 'stroke fill'
                 }}
               >
