@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 export default function Testimonial() {
   return (
-    <section className="container-custom py-12">
+    <section className="container-custom py-4">
       <motion.div
         initial={{ opacity: 0, scale: 0.9, y: 20 }}
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.4, type: "spring", stiffness: 100 }}
         whileHover={{ scale: 1.02, y: -5 }}
-        className="text-center py-8 max-w-4xl mx-auto"
+        className="text-center py-2 max-w-4xl mx-auto"
       >
         <motion.div
           className="relative bg-gradient-to-br from-primary-500 via-cyan-500 to-primary-600 rounded-3xl p-8 md:p-12 shadow-large overflow-hidden"
