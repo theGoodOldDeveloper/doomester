@@ -3,6 +3,10 @@
 import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import WhyDoYouNeedThis from "@/components/WhyDoYouNeedThis";
+import WhatHAGivesYou from "@/components/WhatHAGivesYou";
+import UseCasesCarousel from "@/components/UseCasesCarousel";
+import FAQ from "@/components/FAQ";
 import Description from "@/components/Description";
 import Examples from "@/components/Examples";
 import Testimonial from "@/components/Testimonial";
@@ -15,6 +19,10 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
+      <WhyDoYouNeedThis />
+      <WhatHAGivesYou />
+      <UseCasesCarousel />
+      <FAQ />
       <Description />
       <Examples />
       <Testimonial />
