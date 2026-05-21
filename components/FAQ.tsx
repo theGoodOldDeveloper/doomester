@@ -229,7 +229,7 @@ export default function FAQ() {
               <p className="text-gray-800 font-bold text-xl mb-2">Nem találtad meg a választ?</p>
               <p className="text-gray-500 text-sm mb-6">Tedd fel kérdésedet — válaszolok.</p>
               <a
-                href="#contact"
+                href="/contact"
                 className="inline-block bg-gradient-to-r from-primary-600 to-cyan-600 text-white px-8 py-3 rounded-xl font-semibold shadow-medium hover:shadow-glow transition-all duration-300"
               >
                 Kérdezz bátran! →
